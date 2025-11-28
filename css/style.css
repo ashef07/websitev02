@@ -1,0 +1,477 @@
+/* Responsive professional dental clinic CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7fbff;
+    color: #111;
+}
+/* Contact panel styles */
+.contact-panel {
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 25px 0;
+  border-left: 6px solid #0077b6;
+}
+
+.contact-panel h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #005f8e;
+}
+
+.contact-grid {
+  display: grid;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.contact-box {
+  background: #fff;
+  padding: 12px 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+  font-size: 1.05rem;
+}
+
+.contact-box .icon {
+  font-size: 1.4rem;
+}
+
+
+/* FREE CHECKUP PROMO */
+.free-checkup {
+  background: linear-gradient(135deg, #d0f0ff, #c6e7ff);
+  border-left: 6px solid #0077b6;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 35px 0;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.free-checkup h3 {
+  margin-top: 0;
+  font-size: 1.6rem;
+  color: #004f7c;
+}
+
+.checkup-list li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.expect-text {
+  margin-top: 10px;
+  font-size: 1.05rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 18px;
+  background: #0077b6;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.cta-btn:hover {
+  background: #005f8e;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+header {
+    background: #fff;
+    padding: 14px 0;
+    border-bottom: 2px solid #e2ecf5;
+}
+.announcements {
+    background: linear-gradient(135deg, #e3f4ff, #d0ebff);
+    border-left: 6px solid #0077b6;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.announcements h3 {
+    margin-top: 0;
+    font-size: 1.6rem;
+    color: #005f8e;
+}
+
+.announcements ul li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+.brand h1 {
+    margin: 0;
+    color: #003366;
+    font-size: 1.6rem;
+}
+
+.top-contact {
+    text-align: right;
+    font-size: 0.9rem;
+}
+
+nav {
+    background: #fff;
+    border-bottom: 2px solid #d9e9ff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #003366;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    background: #e7f2ff;
+}
+
+.hero {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.hero img {
+    border-radius: 10px;
+    border: 3px solid #d9e9ff;
+    max-width: 360px;
+}
+
+.cta.primary {
+    background: #0074d9;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #dce9f8;
+    padding: 14px;
+    border-radius: 0;
+    aspect-ratio: 1 / 1;     
+    width: 100%;             
+    max-width: 200px;        
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+
+.card-photo {
+    width: 150px;       
+    aspect-ratio: 1 / 1;   /* always stays square */
+    object-fit: cover;
+    border-radius: 0;
+    margin-bottom: 10px;
+    border: 2px solid #d9e9ff;
+}
+
+
+.team-photo {
+    width: 170px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 0;
+    display: block;
+    margin: 0 auto 12px auto;
+    border: 3px solid #d9e9ff;
+}
+
+.content-photo {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto 18px auto;
+    border-radius: 10px;
+    border: 3px solid #d9e9ff;
+}
+
+footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 18px 10px;
+    margin-top: 28px;
+}
+
+form .form-row {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cfe3ff;
+    border-radius: 6px;
+}
+
+input[type="submit"] {
+    background: #0074d9;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.small {
+    font-size: 0.9rem;
+    color: #555;
+}
+.free-checkup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.free-checkup-img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #0077b6;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+/* --- Booking Section --- */
+.booking-section {
+  background: #e7f6ff;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 30px 0;
+  border-left: 6px solid #0077b6;
+}
+
+.booking-box p {
+  margin-top: 0;
+}
+
+.booking-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
+  background: #0077b6;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.booking-btn:hover {
+  background: #005f8e;
+}
+/* --- NAVBAR BASE --- */
+.navbar {
+  background: #0077b6;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.navbar .nav-brand {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+/* Desktop Navigation */
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 10px;
+}
+
+.navbar ul li a:hover {
+  background: rgba(255,255,255,0.2);
+  border-radius: 5px;
+}
+
+/* Hamburger Icon (Hidden on Desktop) */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+/* --- MOBILE MENU --- */
+@media (max-width: 850px) {
+
+  /* Show hamburger */
+  .hamburger {
+    display: block;
+  }
+
+  /* Hide desktop menu */
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    background: #0077b6;
+    width: 100%;
+    padding: 15px 0;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    text-align: center;
+    gap: 10px;
+    z-index: 10;
+  }
+
+  /* Show menu when activated */
+  .navbar ul.show-menu {
+    display: flex;
+  }
+
+  /* Make nav links easier to tap */
+  .navbar ul li a {
+    display: block;
+    padding: 15px 0;
+    font-size: 1.2rem;
+  }
+}
+
+
+/* --- Announcements Section --- */
+.announcement-section {
+  background: #fff3cd;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 30px 0;
+  border-left: 6px solid #ffb100;
+  position: relative;
+}
+
+.announcement-list li {
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+
+
+
+
+/* --- Education Section --- */
+.education-section {
+  background: #f0f9f2;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 30px 0;
+  border-left: 6px solid #2d8a47;
+}
+
+.education-section h3 {
+  margin-top: 0;
+}
+
+
+/* Responsive behavior */
+@media (max-width:900px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .top-contact {
+        text-align: center;
+    }
+}
+
+@media (max-width:480px) {
+    .brand h1 {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        gap: 8px;
+    }
+
+    .team-photo {
+        width: 120px;
+        height: 120px;
+    }
+}
+/* --- Responsive Card-Like Sections --- */
+.booking-section,
+.announcement-section,
+.education-section {
+  margin: 20px 0;
+}
+
+/* Announcement image responsiveness */
+@media (max-width: 768px) {
+  .announcement-img {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+  }
+}
+
+/* Make placeholders flexible */
+.content-photo,
+.section-photo {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 15px auto;
+  display: block;
+}
