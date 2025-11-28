@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact & Book - 100SMILES Dental Care</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<script>
+function toggleMenu() {
+  const menu = document.getElementById("nav-links");
+  menu.classList.toggle("show-menu");
+}
+</script>
+
+<body>
+  <header class="container">
+    <div style="display:flex;align-items:center;">
+      <div class="brand"><h1>100SMILES Dental Care</h1></div>
+      <div class="top-contact" style="margin-left:auto;"><div class="contact-info">Phone: 07 5000 5599</div></div>
+    </div>
+  </header>
+
+<nav class="navbar">
+  <div class="nav-brand">100SMILES Dental Care</div>
+
+  <!-- Hamburger Icon -->
+  <div class="hamburger" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <!-- Navigation Links -->
+  <ul id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="team.html">Our Team</a></li>
+    <li><a href="technology.html">Technology</a></li>
+    <li><a href="annual.html">Annual Check-Up</a></li>
+    <li><a href="articles.html">Articles</a></li>
+    <li><a href="contact.html">Contact & Book</a></li>
+  </ul>
+</nav>
+
+
+  <main class="container">
+    <h2>Contact & Book</h2>
+
+
+
+   <section class="contact-panel">
+
+  <h3>Get in Touch</h3>
+
+  <div class="contact-grid">
+    <div class="contact-box">
+      <span class="icon">📞</span>
+      <strong>Call:</strong> 07 5000 5599
+    </div>
+
+    <div class="contact-box">
+      <span class="icon">✉️</span>
+      <strong>Email:</strong>
+      <a href="mailto:admin@100smilesdentalcare.com.au">admin@100smilesdentalcare.com.au</a>
+    </div>
+
+    <div class="contact-box">
+      <span class="icon">📍</span>
+      <strong>Visit:</strong> 33 Fantail Street, Razole
+    </div>
+  </div>
+
+</section>
+
+
+<!-- FREE CHECKUP PROMO BOX -->
+<section class="free-checkup">
+
+  <div class="free-checkup-header">
+    <h3>🎉 Free Dental Checkup — 5th July (Limited Slots!)</h3>
+
+    <!-- Small Image Placeholder -->
+    <img src="images/images/Advert.png" 
+         alt="Free dental check-up event" 
+         class="free-checkup-img">
+  </div>
+
+  <p class="intro-text">
+    We’re offering a <strong>FREE dental checkup</strong> on <strong>Saturday 5th July</strong>, starting at <strong>9 a.m.</strong>  
+    Choose your preferred booking method:
+  </p>
+
+  <ul class="checkup-list">
+    <li>📞 <strong>Call:</strong> 07 1327 5599 to reserve your spot</li>
+    <li>✉️ <strong>Email:</strong> Send your preferred time slot</li>
+    <li>🏥 <strong>Visit:</strong> 195 Fantail Street, Cairnville</li>
+  </ul>
+
+  <p class="expect-text">
+    <strong>What to expect:</strong> Free examination, optional professional cleaning, personalised advice,  
+    and a treatment plan if needed. Limited slots — book early!
+  </p>
+
+  <a href="#bookingForm" class="cta-btn">Book Your Free Checkup</a>
+</section>
+
+
+<hr>
+
+
+    <h3>Online Booking Form</h3>
+
+    <div id="formErrors" style="display:none;color:#b00020;background:#fee; padding:10px;border-radius:6px;margin-bottom:12px;" aria-live="polite"></div>
+
+    <form id="bookingForm" class="booking" novalidate>
+      <div class="form-row">
+        <label for="patientName">Patient Full Name *</label>
+        <input type="text" id="patientName" name="patientName" required aria-required="true">
+      </div>
+
+      <div class="form-row">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required aria-required="true">
+      </div>
+
+      <div class="form-row">
+        <label for="phone">Phone *</label>
+        <input type="tel" id="phone" name="phone" required aria-required="true">
+      </div>
+
+      <div class="form-row">
+        <label for="service">Service *</label>
+        <select id="service" name="service" required aria-required="true">
+          <option value="">-- Select a Service --</option>
+          <option>Free Checkup (5 July)</option>
+          <option>Annual Check-Up</option>
+          <option>Cleaning</option>
+          <option>Orthodontics</option>
+          <option>Implant consultation</option>
+          <option>Emergency</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label for="date">Preferred Date *</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+
+      <div class="form-row">
+        <label for="time">Preferred Time * <span class="small">e.g. 10:00 AM</span></label>
+        <input type="text" id="time" name="time" placeholder="e.g. 10:00 AM" required>
+      </div>
+
+      <div class="form-row" role="group" aria-label="Child visit">
+        <label>Is this a first visit for a child?</label>
+        <input type="radio" id="childYes" name="childVisit" value="yes"> <label for="childYes">Yes</label>
+        <input type="radio" id="childNo" name="childVisit" value="no" checked> <label for="childNo">No</label>
+      </div>
+
+      <div class="form-row">
+        <label for="notes">Additional notes</label>
+        <textarea id="notes" name="notes" rows="4"></textarea>
+      </div>
+
+      <div class="form-row">
+        <input type="submit" value="Submit Booking">
+      </div>
+    </form>
+
+    <p class="small">You will receive email confirmation after we process your booking. For urgent matters, please call the clinic.</p>
+
+  </main>
+
+  <footer class="container">
+    <div>Phone: 07 5000 5599 | Fax: 07 4567 9999</div>
+    <div>Address: 33 Fantail Street, Razole, Queensland</div>
+    <div>Trading hours: Mon–Fri 8:30am–6:30pm | Sat–Sun 8:30am–1:00pm</div>
+    <div>© 100SMILES Dental Care</div>
+  </footer>
+
+  <!-- the JS file you already have should validate and handle the booking form -->
+  <script src="js/form.js"></script>
+</body>
+</html>

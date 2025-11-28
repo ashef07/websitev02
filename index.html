@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>100SMILES Dental Care - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<script>
+function toggleMenu() {
+  const menu = document.getElementById("nav-links");
+  menu.classList.toggle("show-menu");
+}
+</script>
+
+
+<body>
+    <header class="container">
+        <div style="display:flex;align-items:center;">
+            <div class="brand">
+                <h1>100SMILES Dental Care</h1>
+                <div class="small">Trusted dental care in Razole for over 30 years</div>
+            </div>
+            <div class="top-contact" style="margin-left:auto;">
+                <div class="contact-info">Phone: 07 5000 5599</div>
+                <div class="small">Email: admin@100smilesdentalcare.com.au</div>
+            </div>
+        </div>
+    </header>
+<nav class="navbar">
+  <div class="nav-brand">100SMILES Dental Care</div>
+
+  <!-- Hamburger Icon -->
+  <div class="hamburger" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <!-- Navigation Links -->
+  <ul id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="team.html">Our Team</a></li>
+    <li><a href="technology.html">Technology</a></li>
+    <li><a href="annual.html">Annual Check-Up</a></li>
+    <li><a href="articles.html">Articles</a></li>
+    <li><a href="contact.html">Contact & Book</a></li>
+  </ul>
+</nav>
+
+    <main class="container">
+        <section class="hero">
+            <div style="flex:1;">
+                <h2>Compassionate dental care for every age</h2>
+                <p>At <strong>100SMILES Dental Care</strong> we provide friendly, reliable, and compassionate services —
+                    from a child's first dental visit to restorative care for adults. Now offering online booking and
+                    advanced dental technology.</p>
+                <p><a class="cta primary" href="contact.html">Book an Appointment</a></p>
+                <p class="small">Opening hours: Mon–Fri 8:30am–6:30pm, Sat–Sun 8:30am–1:00pm</p>
+            </div>
+            <div><!-- hero image placeholder --><img src="images/images/AdobeStock_370177584.jpeg" alt="Clinic reception"
+                    class="content-photo"></div>
+        </section>
+        <section>
+            <h3>Our Services</h3>
+            <div class="grid">
+                <div class="card"><img src="images/images/AdobeStock_537857878.jpeg" alt="Preventive care" class="card-photo">
+                    <h4>Preventive Care</h4>
+                    <p>Regular check-ups, cleanings and patient education to keep smiles healthy.</p>
+                    <p><a href="annual.html">Learn about Annual Check-Up</a></p>
+                </div>
+                <div class="card"><img src="images/images/AdobeStock_473854744.jpeg" alt="Orthodontics" class="card-photo">
+                    <h4>Orthodontics</h4>
+                    <p>Expert orthodontic care led by Dr Johanna Grey.</p>
+                </div>
+                <div class="card"><img src="images/images/AdobeStock_372290824.jpeg" alt="Restorative dentistry"
+                        class="card-photo">
+                    <h4>Restorative & Cosmetic</h4>
+                    <p>Implants, crowns, cosmetic treatments to restore confidence in your smile.</p>
+                </div>
+            </div>
+        </section>
+        <section style="margin-top:20px;" class="announcements">
+            <h3>Announcements</h3>
+            <ul>
+                <li>25% discount on your next dental visit when you book through our online booking form!</li>
+                <li>Free dental checkup on Saturday 5th July, starting at 9 am — limited slots available.</li>
+                <li>Until April 30, enjoy a 10% discount on your Annual Dental Check-Up.</li>
+            </ul>
+        </section>
+    </main>
+    <footer class="container">
+        <div>33 Fantail Street, Razole, Queensland | Fax: 07 4567 9999</div>
+        <div>© 100SMILES Dental Care</div>
+    </footer>
+</body>
+
+</html>
